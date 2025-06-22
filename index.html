@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Campo & Cidade - Jogo de Agricultura</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div id="game-container">
+
+        <div id="header">
+
+            <h1>Campo & Cidade</h1>
+
+            <div id="stats">
+
+                <div>Dinheiro: <span id="money">R$ 100</span></div>
+
+                <div>Dia: <span id="day">1</span></div>
+
+                <div>Reputação: <span id="reputation">50%</span></div>
+
+            </div>
+
+        </div>
+
+        <div id="canvas-container"></div>
+
+        <div id="controls">
+
+            <button id="plant-btn">Plantar</button>
+
+            <button id="harvest-btn">Colher</button>
+
+            <button id="sell-btn">Vender</button>
+
+            <button id="next-day-btn">Próximo Dia</button>
+
+        </div>
+
+        <div id="inventory">
+
+            <h3>Inventário</h3>
+
+            <div id="inventory-items"></div>
+
+        </div>
+
+    </div>
+
+    <script src="sketch.js"></script>
+
+</body>
+
+</html>
